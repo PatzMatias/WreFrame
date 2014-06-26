@@ -1,0 +1,59 @@
+#whatwedo{
+	@extend #about;
+}
+
+#ourprocess{
+	margin-bottom: 30px;
+	h3{
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+}
+
+#ourservices{
+	margin-bottom: 30px;
+	h3{
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+	.services{
+		width: 100%; 
+		height: auto;
+		text-align: left;
+		margin: 15px 0px;
+		img{
+			margin-bottom: 10px;
+		}
+		h4{
+			text-transform: uppercase;
+			font-weight: bold;
+			margin: 0;
+		}
+		h5{
+			margin: 0;
+			margin-bottom: 15px;
+			font-size: 15px;
+		}
+		p{
+			font-size: 14px;
+			width: 100%;
+		}
+	}
+}
+
+#ourpartners{
+	margin-bottom: 60px;
+	h3{
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
+	img{
+		border: 2px solid #000;
+	}
+	p{
+		width: 100%;
+		max-width: 736px;
+		margin: 0 auto;
+		margin-bottom: 25px;
+	}
+}
